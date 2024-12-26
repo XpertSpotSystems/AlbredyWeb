@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/blog/blog_1.png",
+    "category": ["lifestyle", "men"],
+    "title": "What you need in your pet’s first aid kit",
+    "url": "/blog_details",
+    "author": "Admin",
+    "authorUrl": "/blog-standard",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/blog/blog_2.png",
+    "category": ["dog"],
+    "title": "What you need in your pet’s first aid kit",
+    "url": "/blog_details",
+    "author": "Admin",
+    "authorUrl": "/blog-standard",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/blog/blog_2.png",
+    "category": ["lifestyle"],
+    "title": "What you need in your pet’s first aid kit",
+    "url": "/blog_details",
+    "author": "Admin",
+    "authorUrl": "/blog-standard",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/blog/blog_1.png",
+    "category": ["lifestyle"],
+    "title": "What you need in your pet’s first aid kit",
+    "url": "/blog_details",
+    "author": "Admin",
+    "authorUrl": "/blog-standard",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,"
+  },
+  {
+    "id": 5,
+    "image": "/assets/img/blog/blog_1.png",
+    "category": ["lifestyle"],
+    "title": "What you need in your pet’s first aid kit",
+    "url": "/blog_details",
+    "author": "Admin",
+    "authorUrl": "/blog-standard",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,"
+  },
+  {
+    "id": 6,
+    "image": "/assets/img/blog/blog_1.png",
+    "category": ["lifestyle"],
+    "title": "What you need in your pet’s first aid kit",
+    "url": "/blog_details",
+    "author": "Admin",
+    "authorUrl": "/blog-standard",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,"
+  },
+  {
+    "id": 7,
+    "image": "/assets/img/blog/blog_1.png",
+    "category": ["lifestyle"],
+    "title": "What you need in your pet’s first aid kit",
+    "url": "/blog_details",
+    "author": "Admin",
+    "authorUrl": "/blog-standard",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,"
+  }
+]

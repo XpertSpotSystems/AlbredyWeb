@@ -1,0 +1,490 @@
+/*------- 21. Checkout page  -----------*/
+
+.billing-info-wrap {
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+
+    margin: 0 0 20px;
+
+    color: #000;
+  }
+  .billing-info,
+  .billing-select {
+    label {
+      margin: 0 0 7px;
+
+      color: #000;
+    }
+    input {
+      font-size: 14px;
+
+      padding-right: 10px;
+      padding-left: 20px;
+
+      color: #333;
+      border: 1px solid #e6e6e6;
+      background: transparent none repeat scroll 0 0;
+    }
+    input.billing-address {
+      margin-bottom: 10px;
+    }
+  }
+  .billing-select {
+    select {
+      font-size: 14px;
+
+      height: 45px;
+      padding: 2px 20px;
+
+      //background: rgba(0, 0, 0, 0) url("../../assets/img/icon-img/select.png") no-repeat scroll right 18px center;
+
+      cursor: pointer;
+
+      color: #333;
+      border: 1px solid #e6e6e6;
+
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+  }
+  .checkout-account {
+    display: flex;
+    align-items: center;
+    input {
+      display: inline-block;
+      float: left;
+
+      width: 10px;
+      height: 10px;
+
+      border: 1px solid #9fa0a2;
+    }
+    span {
+      font-weight: 400;
+
+      margin: 0 0 0 12px;
+
+      color: #333;
+    }
+  }
+  .checkout-account-toggle {
+    input {
+      font-size: 14px;
+
+      margin: 0 0 20px;
+      padding-right: 10px;
+      padding-left: 20px;
+
+      color: #333;
+      border: 1px solid #e6e6e6;
+      background: transparent none repeat scroll 0 0;
+    }
+    button.checkout-btn {
+      font-weight: 500;
+
+      z-index: 9;
+
+      padding: 10px 30px;
+
+      cursor: pointer;
+      text-transform: uppercase;
+
+      color: #fff;
+      border: medium none;
+      border-radius: 50px;
+      background-color: $theme-color;
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
+  .additional-info-wrap {
+    h4 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .additional-info {
+      label {
+        font-size: 14px;
+
+        margin: 0 0 7px;
+
+        color: #333;
+      }
+      textarea {
+        font-size: 14px;
+
+        height: 138px;
+        padding: 17px 20px;
+
+        color: #333;
+        border: 1px solid #e6e6e6;
+        background: transparent none repeat scroll 0 0;
+      }
+    }
+  }
+  .different-address {
+    display: none;
+  }
+}
+
+.your-order-area {
+  @media #{$md-layout} {
+    margin-top: 30px;
+  }
+  @media #{$xs-layout} {
+    margin-top: 30px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 500;
+
+    margin: 0 0 20px;
+
+    color: #000;
+  }
+  .your-order-wrap {
+    padding: 38px 45px 44px;
+
+    background: #f6f6f6;
+    @media #{$lg-layout} {
+      padding: 30px 20px 36px;
+    }
+    @media #{$xs-layout} {
+      padding: 30px 20px 36px;
+    }
+    .your-order-product-info {
+      .your-order-top {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          li {
+            font-size: 16px;
+            font-weight: 500;
+
+            list-style: outside none none;
+          }
+        }
+      }
+      .your-order-middle {
+        margin: 29px 0;
+        padding: 19px 0 18px;
+
+        border-top: 1px solid #dee0e4;
+        border-bottom: 1px solid #dee0e4;
+        ul {
+          li {
+            display: flex;
+            justify-content: space-between;
+
+            margin: 0 0 10px;
+          }
+        }
+      }
+      .your-order-bottom {
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          li {
+            font-size: 14px;
+            font-weight: 400;
+
+            list-style: none;
+          }
+          li.your-order-shipping {
+            font-size: 16px;
+            font-weight: 400;
+
+            color: #212121;
+          }
+        }
+      }
+      .your-order-total {
+        margin: 18px 0 33px;
+        padding: 17px 0 19px;
+
+        border-top: 1px solid #dee0e4;
+        border-bottom: 1px solid #dee0e4;
+        ul {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          li.order-total {
+            font-size: 18px;
+            font-weight: 500;
+
+            color: #212121;
+          }
+          li {
+            font-size: 16px;
+            font-weight: 500;
+
+            list-style: outside none none;
+
+            color: $theme-color;
+          }
+        }
+      }
+    }
+  }
+  .payment-accordion {
+    margin: 0 0 16px;
+    &:last-child {
+      margin: 0 0 0;
+    }
+    h4 {
+      font-size: 16px;
+
+      margin: 0;
+
+      color: #212121;
+      a {
+        position: relative;
+
+        display: block;
+
+        color: #212121;
+        &:hover {
+          color: $theme-color;
+        }
+      }
+    }
+    .panel-body {
+      padding: 5px 0 0 0;
+      p {
+        font-size: 14px;
+
+        padding: 0 0 0 10px;
+
+        color: #333;
+      }
+    }
+  }
+  .place-order > a,
+  .place-order > button {
+    font-weight: 500;
+    line-height: 1;
+
+    z-index: 9;
+
+    display: block;
+
+    width: 100%;
+    padding: 18px 20px;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background: none;
+    background-color: $theme-color;
+    &:hover {
+      background-color: #333;
+    }
+  }
+}
+
+.checkout-area {
+  @media #{$xs-layout} {
+    &.pb-100 {
+      padding-bottom: 60px;
+    }
+  }
+}
+
+.CheckoutEmptyColor {
+  color: #acacac;
+}
+
+.BillingFormInput {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  border-radius: 5px;
+  border: none !important;
+}
+
+.BillingFormInput.ProfileContact {
+  background: #ffffff !important;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1)  !important;
+  border-width: 1px  !important;
+  border-radius: 5px  !important;
+  border-color: unset !important;
+}
+
+.BillingFormContactInput {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+
+
+.ReadOnly, .ReadOnly:focus {
+  background-color: lightgray;
+}
+
+.BgLight {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.PreviousAddressText {
+  color: #444444;
+  font-weight: 500;
+}
+
+.EditButton {
+  cursor: pointer;
+  color: $theme-color;
+  font-size: 22px;
+  float: right;
+  margin-right: 5px;
+}
+
+.TitleShipping {
+  font-size: 15px;
+  color: #959595;
+}
+
+.DeliveryAddressTitle {
+  font-size: 18px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  span {
+    color: #ABABAB;
+    font-size: 14px;
+  }
+}
+
+.MethodTitle {
+  font-size: 18px;
+  color: #000;
+}
+
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.DeliveryPrice {
+  color: #707070;
+  font-size: 16px;
+  float: right;
+}
+
+.storeHeading {
+  font-size: 12px;
+  line-height: 1.1;
+}
+
+.LoginHeading {
+  font-size: 15px;
+  line-height: 1.1;
+}
+
+.StorPrice {
+  color: #707070;
+  font-size: 12px;
+  float: right;
+}
+
+.custom-radio-btn input {
+  position: relative;
+  left: 19px;
+  bottom: 22px;
+  width: 13px;
+  border: none !important;
+}
+
+.custom-radio-btn {
+  position: relative;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.custom-radio-btn .checkmark {
+  width: 100%;
+  height: 100%;
+  background: $theme-color;
+  border-radius: 50%;
+  display: none;
+}
+
+.custom-radio-btn input:checked + .checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 58px;
+  right: 1px;
+}
+
+.DeliveryDate {
+  box-shadow: none;
+  height: 40px;
+  border: none;
+  box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.1);
+  &:focus {
+    box-shadow: none;
+    border: 1px solid $theme-color;
+  }
+}
+
+::-webkit-calendar-picker-indicator {
+  font-size: 20px;
+  color: $theme-color !important;
+  background-image: url("/assets/img/calendar.png");
+}
+
+.AddressView {
+  display: flex;
+}
+
+.IconView {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $theme-color;
+  & .Icon {
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
+.Address {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.RightIcon {
+  font-size: 20px;
+  color: $theme-color;
+  cursor: pointer;
+}
+
+.shadow_lg {
+  box-shadow: 0px 0px 13.0607px rgba(0, 0, 0, 0.15);
+}
+
+
+.SavePaymentCard {
+  font-size: 20px;
+  color: $theme-color;
+}
+
+.SaveCardTitle {
+  font-size: 16px;
+  color: $theme-color;
+}

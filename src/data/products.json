@@ -1,0 +1,226 @@
+[
+  {
+    "id": "1",
+    "name": "Chicken Treats",
+    "price": 500,
+    "discount": 10,
+    "new": true,
+    "rating": 5,
+    "saleCount": 95,
+    "category": ["Dog Food"],
+    "tag": ["Dog"],
+    "stock": 5,
+    "variation": [
+      {
+        "color": "blue",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "2 Kg",
+            "stock": 3
+          }
+        ]
+      },
+      {
+        "color": "brown",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "2 Kg",
+            "stock": 4
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "2 Kg",
+            "stock": 3
+          }
+        ]
+      }
+    ],
+
+    "image": [
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "2",
+    "name": "Dog Food",
+    "price": 499,
+    "discount": 15,
+    "new": false,
+    "rating": 4,
+    "saleCount": 57,
+    "category": ["Dog Food"],
+    "tag": ["Dog"],
+    "stock": 5,
+    "variation": [
+      {
+        "color": "green",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "3 Kg",
+            "stock": 3
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "3 Kg",
+            "stock": 4
+          }
+        ]
+      },
+      {
+        "color": "blue",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "5 Kg",
+            "stock": 3
+          }
+        ]
+      }
+    ],
+
+    "image": [
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "3",
+    "name": "Cat Food",
+    "price": 1499,
+    "discount": 0,
+    "new": true,
+    "rating": 1,
+    "saleCount": 57,
+    "category": ["Cat Food"],
+    "tag": ["Cat"],
+    "stock": 5,
+    "variation": [
+      {
+        "color": "green",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "4 Kg",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "5 Kg",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "orange",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "1 Kg",
+            "stock": 3
+          }
+        ]
+      }
+    ],
+
+    "image": [
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  },
+  {
+    "id": "4",
+    "name": "Horse Food",
+    "price": 999,
+    "discount": 0,
+    "new": false,
+    "rating": 2,
+    "saleCount": 57,
+    "category": ["Equestrian Food"],
+    "tag": ["Equestrian"],
+    "stock": 5,
+    "variation": [
+      {
+        "color": "green",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "4 Kg",
+            "stock": 7
+          },
+          {
+            "size": "3 Kg",
+            "stock": 7
+          },
+          {
+            "size": "8 Kg",
+            "stock": 7
+          }
+        ]
+      },
+      {
+        "color": "black",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "1 Kg",
+            "stock": 4
+          }
+        ]
+      },
+      {
+        "color": "orange",
+        "image": "/assets/img/product/product_image.png",
+        "weight": [
+          {
+            "size": "5 Kg",
+            "stock": 3
+          }
+        ]
+      }
+    ],
+
+    "image": [
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png",
+      "/assets/img/product/product_image.png"
+    ],
+    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+  }
+]
